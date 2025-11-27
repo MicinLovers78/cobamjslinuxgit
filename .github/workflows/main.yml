@@ -45,7 +45,7 @@ jobs:
     needs: build-and-test
     runs-on: ubuntu-latest
     permissions:
-      content: read
+      contents: read
       actions: write
 
     steps:
